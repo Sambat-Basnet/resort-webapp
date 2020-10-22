@@ -1,0 +1,156 @@
+.comfortSec {
+  width: 75%;
+  height: 448px;
+  display: flex;
+  /* background-color: teal; */
+  margin: 0 auto;
+  padding-top: 14rem;
+  padding-bottom: 10rem;
+}
+
+.comfortContent {
+  flex: 1;
+
+  /* background-color: green; */
+}
+.comfortContent span {
+  width: 70px;
+  height: 4px;
+  display: block;
+  background-color: #c1b086;
+}
+.comfortContent h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 1.25rem;
+  letter-spacing: 0.1em;
+  color: #222;
+}
+.comfortContent h1 {
+  font-family: "Noto Serif", serif;
+  color: #222;
+  padding-top: 0.7rem;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 31px;
+  letter-spacing: -0.5px;
+}
+
+.comfortContent_text {
+  padding: 1rem 0 1rem 2.5rem;
+}
+
+.comfortContent p {
+  color: #5f6060;
+  line-height: 1.8;
+  padding-bottom: 1.3rem;
+}
+
+.comfortContent button {
+  background-color: #c1b086;
+  border: none;
+  padding: 1.5835em 3.333em;
+  margin-top: 2rem;
+}
+
+.comfortContent button:hover {
+  background-color: #252e59;
+}
+
+.picSec {
+  flex: 1;
+  /* background-color: red; */
+  position: relative;
+}
+
+.welcome1 {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+.welcome2 {
+  position: absolute;
+  height: 210px;
+  width: 55%;
+  object-fit: cover;
+  bottom: 0;
+  left: 30%;
+}
+
+.logoImg {
+  position: absolute;
+  top: -15%;
+  bottom: 0;
+  height: 350px;
+  left: 30%;
+  z-index: -10;
+}
+
+.amenitiesSec {
+  height: 60vh;
+  background: url("/assets/longback.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.amenityItems {
+  height: 76vh;
+  top: 0;
+  bottom: 0;
+  width: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  position: absolute;
+  margin-top: -60px;
+  margin-bottom: -60%;
+}
+
+.emptySec {
+  flex: 1;
+}
+.amenitySec {
+  flex: 1;
+  background: url("/assets/cutLogo.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-color: #3f9cc1;
+}
+
+.amenitySec .amenityContent {
+  padding: 6.4rem 5.2rem;
+  color: #fff;
+}
+
+.amenityContent h1 {
+  font-family: "Noto Serif", serif;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.amenityContent p {
+  line-height: 1.7;
+  padding: 1rem 0;
+}
+
+.serviceRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.serviceRow .firstIconItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.serviceRow .firstIconItem h3 {
+  font-weight: 400;
+  font-size: 17px;
+  padding-left: 1rem;
+}
+
+.amenityIcons {
+  font-size: 20px;
+}

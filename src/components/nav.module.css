@@ -1,0 +1,64 @@
+nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  width: 87.5%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  align-items: center;
+}
+.logoSec {
+  display: flex;
+  align-items: center;
+}
+.logoSec a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 1rem;
+  font-family: "Noto Serif", serif;
+}
+
+.rightItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemSec {
+  flex: 1;
+  padding: 0 2.5rem;
+  padding-right: 3rem;
+}
+
+.itemSec ul {
+  display: flex;
+  width: 350px;
+  list-style: none;
+  justify-content: space-between;
+}
+.itemSec ul li {
+  margin-right: 1rem;
+}
+
+.itemSec ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.iconSec {
+  flex: 0.5;
+  color: #fff;
+  display: flex;
+  width: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
